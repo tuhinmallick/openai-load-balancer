@@ -5,8 +5,7 @@ from openai_load_balancer.openai_interface import OpenAILoadBalancer
 
 @pytest.fixture
 def mock_load_balancer():
-    mock = Mock()
-    return mock
+    return Mock()
 
 
 @pytest.fixture
